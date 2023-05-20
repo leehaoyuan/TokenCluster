@@ -1,0 +1,12 @@
+python3 src/aspect_inference_nounmeanberttokenclusterchunkjjv2.py \
+	--summary_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/space/space_summ.json \
+	--gold_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/space/gold \
+	--sentencepiece /afs/cs.unc.edu/home/haoyuanl/SemAE/data/sentencepiece/spm_unigram_32k.model \
+	--seedsdir /afs/cs.unc.edu/home/haoyuanl/SemAE/data/seeds \
+        --model /afs/cs.unc.edu/home/haoyuanl/SemAE/models/spacev2_7_model.pt \
+	--gpu 0 \
+	--run_id spacev27_asptk \
+	--outdir outputs \
+	--min_tokens 4 \
+        --no_cut_sents \
+        --cos_thres 0.5 ;

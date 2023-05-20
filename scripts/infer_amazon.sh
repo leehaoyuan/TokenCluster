@@ -1,0 +1,13 @@
+python3 src/inference.py \
+	--summary_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/amazon/amazon_summv2.json \
+	--gold_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/amazon/gold \
+	--sentencepiece /afs/cs.unc.edu/home/haoyuanl/SemAE/data/sentencepiece/myspm.model \
+        --model /afs/cs.unc.edu/home/haoyuanl/SemAE/models/amazon_origv4_8_model.pt \
+	--gpu 0 \
+	--run_id amazonv48_mean \
+	--split_by presplit \
+	--outdir outputs \
+	--max_tokens 100 \
+	--min_tokens 4 \
+        --no_cut_sents \
+        --cos_thres 0.5 ;
