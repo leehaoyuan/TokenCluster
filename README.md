@@ -2,7 +2,7 @@
 
 This repository presents the implementation of the ACL 2023 findings paper:
 
-> [**Aspect-aware Unsupervised Extractive Opinion Summarization**](https://arxiv.org/abs/2203.07921),<br/>
+Aspect-aware Unsupervised Extractive Opinion Summarization
 
 
 
