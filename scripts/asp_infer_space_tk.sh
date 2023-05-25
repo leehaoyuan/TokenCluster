@@ -1,4 +1,4 @@
-python3 src/aspect_inference_nounmeanberttokenclusterchunkjjv2.py \
+python3 src/aspect_inference_tk.py \
 	--summary_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/space/space_summ.json \
 	--gold_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/space/gold \
 	--sentencepiece /afs/cs.unc.edu/home/haoyuanl/SemAE/data/sentencepiece/spm_unigram_32k.model \

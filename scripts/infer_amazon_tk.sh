@@ -1,4 +1,4 @@
-python3 src/inference_nounmeanbertv2tokenv3chunkjjspace.py \
+python3 src/inference_tk.py \
 	--summary_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/amazon/amazon_summv2.json \
 	--gold_data /afs/cs.unc.edu/home/haoyuanl/SemAE/data/amazon/gold \
 	--sentencepiece /afs/cs.unc.edu/home/haoyuanl/SemAE/data/sentencepiece/myspm.model \
