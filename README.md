@@ -4,7 +4,7 @@ This repository presents the implementation of the ACL 2023 findings paper:
 
 Aspect-aware Unsupervised Extractive Opinion Summarization
 
-
+The implementation is based on [SemAE](https://github.com/brcsomnath/SemAE). For installation, please refer to the instruction in the repo.
 
 
 
